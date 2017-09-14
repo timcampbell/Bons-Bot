@@ -1,0 +1,10 @@
+{
+	"name": "Hangin-Bot",
+	"version": "1.0.0",
+	"description": "Personal Bot",
+	"author": "Bonheur",
+	"dependencies": {
+		"discord.io": "^2.5.2",
+		"winston": "^2.3.1"
+	}
+}
