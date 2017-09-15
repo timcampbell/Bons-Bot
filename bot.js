@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var ref = require('./grumpsquotes.json');
+var ref = require('./ref.json');
 
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
