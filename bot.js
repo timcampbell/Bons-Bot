@@ -49,6 +49,12 @@ bot.on('message', function(user, userID, channelID, message, evt){
 					message: quotes[Math.floor(Math.random()*quotes.length)]
 				})
 			break;
+			case 'co':
+			case 'comeon':
+				bot.sendMessage({
+					to: channelID,
+					message: ref.quotes[11]
+				})
 		}
 	}
 })
